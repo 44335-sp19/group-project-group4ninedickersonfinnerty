@@ -9,7 +9,17 @@
 .navBar span{
   font-size: 26px;
 }
+<<<<<<< HEAD
 html body {
     background-color: gainsboro;
 
 }
+=======
+#hamburgermenu{
+  background-color: yellow;
+  font-size: 18px;
+}
+#hamburgermenu a{
+  color: green;
+}
+>>>>>>> 22dac777b38233c05323b779565f8431c6b91201
