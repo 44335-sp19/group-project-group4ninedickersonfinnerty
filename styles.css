@@ -6,3 +6,10 @@
 .navBar span{
   font-size: 26px;
 }
+#hamburgermenu{
+  background-color: yellow;
+  font-size: 18px;
+}
+#hamburgermenu a{
+  color: green;
+}
