@@ -3,7 +3,13 @@
   color: #000000;
   padding: 0.5%;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
 .navBar span{
   font-size: 26px;
+}
+html body {
+    background-color: gainsboro;
+
 }
