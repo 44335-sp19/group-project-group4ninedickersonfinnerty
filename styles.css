@@ -7,13 +7,14 @@
     font-size: 300px;
 }
 
-html body {
+body {
     background-color: gainsboro;
 
 }
 .navBar span{
   font-size: 26px;
 }
+/*
 <<<<<<< HEAD
 
 =======
@@ -25,3 +26,39 @@ html body {
   color: green;
 }
 >>>>>>> 22dac777b38233c05323b779565f8431c6b91201
+*/
+/*Side Nav*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.sidenav a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: yellow;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
