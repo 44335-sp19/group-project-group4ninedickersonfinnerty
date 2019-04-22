@@ -7,11 +7,11 @@ function closeNav() {
 $(document).ready(function(){
   $('.portfolioImage').click(function(){
     var image = $(this).attr('src');
-    $('.modal img').attr('src', image);
-    $('.modal').css('display','block');
+    $('.modall img').attr('src', image).addClass('center-block');
+    $('.modall').css('display','block');
   });
-  $('.close').click(function(){
-    $('.modal').css('display','none');
+  $('.closey').click(function(){
+    $('.modall').css('display','none');
   });
 });
 
