@@ -4,3 +4,11 @@ function openNav() {
 function closeNav() {
   document.getElementById('sideNav').style.width = "0";
 }
+
+function openPortModal(modalName) {
+  modalName.style.display = "block";
+}
+
+function closePortModal(modalName) {
+  modalName.style.display = "none";
+}
