@@ -97,4 +97,14 @@ body {
   transition: 0.3s;
 }
 
+.contact a {
+  color: #FF6B6B;
+}
+.contact a:hover {
+  color: #4ECDC4;
+}
+.rowcon {
+  padding: 100px;
+}
+
 h1 {font-weight: bold;}

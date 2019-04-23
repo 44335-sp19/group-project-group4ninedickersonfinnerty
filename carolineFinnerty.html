@@ -54,10 +54,11 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-            <h3 class="text-right">Project Name</h3>
+            <h3 class="text-right">Programming 2 RPG Project</h3>
             <p class="text-right">Project description.....Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus, est vitae imperdiet suscipit, arcu lorem venenatis ex, quis rutrum metus tellus vel enim. Duis non imperdiet risus, quis commodo sapien. Suspendisse vulputate et orci vel pellentesque. Nam imperdiet dui eu faucibus fringilla. Integer euismod ac risus at rhoncus. Pellentesque eu tellus libero. Nunc tincidunt aliquam interdum. Vivamus id volutpat est. Integer commodo nisl tincidunt porta fermentum. Donec diam ligula, aliquet id enim id, aliquet mollis elit.</p>
           </div>
-          <img src="pictures/portFill.jpeg" alt="Portfolio Image" class="col-md-4 img-responsive">
+          <pre class="pre-scrollable"><p>char battlePath = fightInput.next().charAt(0);<br /> int prob = monsterChance.nextInt(10)+0;<br /> if(monster.contains("Demon King")){<br /> switch(battlePath){<br /> case 's':<br /> System.out.println("Prepare for battle!");<br /> System.out.println("Press any letter then ENTER to continue...");<br /> fightInput.next();<br /> System.out.println("********************");<br /> playerChara.useSpecialMove();<br /> if(prob &lt;=7){<br /> System.out.println("Player wins! Increase score by 2 points!");<br /> playerChara.setScore(playerChara.getScore()+2);<br /> }else{<br /> System.out.println("Oof! Player lost! You lost 2 health points");<br /> playerChara.setHealth(playerChara.getHealth()-2);<br /> }<br /> System.out.println(" ");<br /> System.out.println(playerChara);<br /> break;<br /> default:<br /> System.out.println("Time to run!");<br /> System.out.println("Press any leter then ENTER to continue...");<br /> fightInput.next();<br /> System.out.println("********************");<br /> if(prob &lt;= 6){<br /> System.out.println("The Demon King is pretty slow! Got away safetly.");<br /> playerChara.setScore(playerChara.getScore()+1);<br /> }else{<br /> System.out.println("You didn't run fast enough! Slow poke...");<br /> playerChara.setHealth(playerChara.getHealth()-1);<br /> }<br /> System.out.println(" ");<br /> System.out.println(playerChara);<br /> break; <br /> }<br /> }</p></pre>
+          <!--<img src="pictures/portFill.jpeg" alt="Portfolio Image" class="col-md-4 img-responsive"> -->
         </div>
       </div>
       <div class="container-fluid education">
@@ -79,6 +80,30 @@
             </div>
           </div>
         </div>
+      <div class="container-fluid contact">
+        <div class="row">
+          <h1>Contact</h1>
+        </div>
+        <div class="row rowcon">
+          <p class="text-center">Shoot Caroline an email at:</p>
+          <h3 class="text-center"><a href="mailto:Caroline@finnerty.org">Caroline Finnerty</a></h3>
+          <p class="text-center">Find Caroline on linkedin at:</p>
+          <h3 class="text-center"><a href="https://www.linkedin.com/in/carolinefinnerty/">Linkedin.com/carolinefinnerty</a></h3>
+          <p class="text-center">Call Caroline at:</p>
+          <h3 class="text-center"><a href="tel:8168048299">(816) 804-8299</a></h3>
+        </div>
+
+      </div>
+      <div class="container-fluid experience">
+        <h1>Experience</h1>
+      </div>
+      <div class="container experience">
+        <div class="row">
+          <img src="pictures/rivetLogo.png" alt="Rivet Logo" class="img-responsive col-md-4">
+          <h3>Rivet</h3>
+          <p class="col-md-6">Description of time there.</p>
+        </div>
+      </div>
   </body>
   <script src="script.js" type="text/javascript">
 
