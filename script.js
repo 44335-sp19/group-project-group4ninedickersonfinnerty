@@ -8,9 +8,11 @@ $(document).ready(function(){
   $('.portfolioImage').click(function(){
     var image = $(this).attr('src');
     $('.modall img').attr('src', image).addClass('center-block');
+    $('body').css('overflow', 'hidden');
     $('.modall').css('display','block');
   });
   $('.closey').click(function(){
+    $('body').css('overflow', 'visable');
     $('.modall').css('display','none');
   });
 });
