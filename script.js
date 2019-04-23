@@ -12,7 +12,7 @@ $(document).ready(function(){
     $('.modall').css('display','block');
   });
   $('.closey').click(function(){
-    $('body').css('overflow', 'visable');
+    $('body').css('overflow', 'auto');
     $('.modall').css('display','none');
   });
 });
