@@ -94,7 +94,7 @@ body {
   position: absolute;
   top: 15px;
   right: 35px;
-  color: white;
+  color: yellow;
   font-size: 48px;
   font-weight: bold;
   transition: 0.3s;
@@ -108,6 +108,11 @@ body {
 }
 .rowcon {
   padding: 100px;
+}
+.footer {
+  height: 125px;
+  margin-top:10px; 
+  background-color: #4ECDC4;
 }
 
 h1 {font-weight: bold;}
